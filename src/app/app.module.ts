@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home';
 import { AppRoutingModule } from './app-routing.module';
-import { LoginComponent, RegisterComponent } from './account';
+import { LoginComponent, RegisterComponent } from './modules/account';
 
 @NgModule({
     imports: [
@@ -15,7 +15,6 @@ import { LoginComponent, RegisterComponent } from './account';
         HomeComponent,
         LoginComponent,
         RegisterComponent
-        
     ],
     bootstrap: [AppComponent]
 })
